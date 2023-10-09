@@ -1,0 +1,21 @@
+#include <stdio.h>
+  
+  int main(){
+      
+      int i = 2, n1;
+      int soma = 0;
+      
+      printf("digite um numero inteiro positivo\n");
+      scanf("%d", &n1);
+      
+      while(i <= n1 ){
+          soma += i;
+          i += 2;
+          
+         
+      }
+       printf("a soma dos numeros pares de %d e %d\n", n1, soma);
+      
+      
+     
+  }
